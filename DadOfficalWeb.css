@@ -1,0 +1,362 @@
+p{
+    margin: 0px;
+    padding: 8px;
+    border: 0px;
+    background-color: #F9EEE1;
+    color: #2D2010;
+    height: fit-content;
+    width: fit-content
+}
+
+.one{
+    margin-top: 8px;
+    margin-left: 8px;
+    font-size: 20px;
+    padding: 8px;
+    width: 270px;
+    height: 20px;
+    width: max-content;
+    background-color: transparent;
+    opacity: 0;
+    animation: fadeIn 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+
+body{
+    margin: 0;
+}
+
+.Heading{
+    padding-left: 8px;
+    background-color: rgb(213, 133, 42);
+    padding-bottom: 8px ;
+    box-shadow: 0px 9px 8px #2D2010;
+    width: 99.4%;
+}
+
+.Heading2{
+background-color: #F9EEE1;
+height: 1500px;
+padding-left: 8px;
+padding-top: 18px;
+
+}
+
+
+.Title{
+    margin-top: 5px;
+    height: auto ;
+    width: auto;
+    padding: 25px;
+    font-size: 50px;
+    box-shadow: 6px 5px 8px #2D2010;
+    border-radius: 100px;
+    border-bottom: 25px;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0;
+    animation: fadeIn 2s;
+    animation-fill-mode: forwards;
+}
+
+.group2{
+    padding-bottom: 8px;
+    width: min-content;
+    right: 0;
+    position: absolute;
+}
+
+.boxtwo{
+    height: 50px;
+    width: fit-content;
+    vertical-align: top;
+    margin-left: -0px;
+}
+
+.Phone{
+    font-size: 25px;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    opacity: 0;
+    animation: fadeIn 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 2.0s;
+}
+
+.ContactP{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    opacity: 0;
+    animation: fadeIn 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 2.5s;
+}
+
+.fa-brands {
+    padding-left:   20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 25%;
+    vertical-align: top;
+    margin-left: 5px;
+  }
+
+  .fa-facebook-f {
+    background: #3B5998;
+    color: white;
+    width: fit-content;
+    height: 23px;
+    margin-top: 7px;
+    transition: 2.5s;
+    opacity: 0;
+    animation: fadeIn 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 3.0s;
+  }
+
+  .fa-facebook-f:hover {
+    background: #3B5998;
+    margin-top: 7px;
+    width: fit-content;
+  }
+
+  .acebook {
+    font-size: 0;
+    transition: 2s;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+  .fa-facebook-f:hover .acebook {
+    font-size: 19px;
+  }
+
+.boxthree{
+    height: min-content;
+    width: max-content;
+    margin-top: 12px;
+    vertical-align: top;
+}
+
+.Mail{
+    font-size: 25px;
+    border-radius: 10px;
+    opacity: 0;
+    animation: fadeIn 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 3.5s;
+}
+
+.ContactE{
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    opacity: 0;
+    animation: fadeIn 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 4.0s;
+}
+
+.pic{
+    width: 200px ;
+    height: 200px;
+    transition: 3s;
+    vertical-align: top;
+
+}
+
+.Past{
+color: #2D2010;
+font-size: 50px;
+padding: 8px;
+opacity: 0;
+animation: FromLeft 3s, fadeIn 3s;
+animation-delay: 5.09s;
+animation-fill-mode: forwards;
+}
+
+.I{
+    margin: 8px;
+    position: relative;
+    transition: 3s;
+    text-align: center;
+    background-color: white;
+    border-radius: 50px;
+    opacity: 0;
+}
+
+.I:hover .pic{
+    width: 335px;
+    height: 335px;
+    border-radius: 50px;
+    transform: rotateY(180deg);
+    opacity: 0;
+}
+
+.I:active .pic{
+    width: 335px;
+    height: 335px;
+    border-radius: 50px;
+    background-color: none;
+    opacity: 1;
+}
+
+/*
+text appears when cursor hovers 
+over div
+*/
+.I:hover .text{
+    animation-name: fadeIn;
+    font-size: 32px;
+    opacity: 1;
+}
+
+/*
+if user wants to see the image 
+only enlarged without text
+*/
+.I:active .text{
+    font-size: 0px;
+    opacity: 1;
+}
+
+.group3{
+    padding: 8px;
+    width: min-content;
+    
+}
+
+.two{
+    margin-top: 10px;
+    margin-left: 8px;
+    width: 200px;
+    height: max-content;
+    margin-bottom: 0px;
+}
+
+.City{
+    border: 8px;
+    padding: 4px;
+    border-radius: 50px;
+    opacity: 0;
+    animation: fadeIn 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+.City2{
+    margin-top: 6px;
+    padding: 4px;
+    border-radius: 50px;
+    opacity: 0;
+    animation: fadeIn 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
+    animation-delay: 1.5s;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0px;
+    color: black;
+    opacity: 0;
+    animation-duration: 5s;
+}
+
+.info{
+    padding: 8px;
+    font-size: 30px;
+    color: #2D2010;
+}
+
+.what-we-do{   
+    background-color: rgba(213,133,42,0.8);
+    opacity: 0;
+    animation: fadeIn 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 4.5s;
+}
+
+.what-we-fix{
+    background-color: rgba(213,133,42,0.8);
+    opacity: 0;
+    animation: fadeIn 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 5.0s;
+}
+
+.animate1{
+    animation: fadeIn 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 5.1s;
+}
+
+.animate2{
+    animation: fadeIn 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 5.4s;
+}
+
+.animate3{
+    animation: fadeIn 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 5.7s;
+}
+
+.animate4{
+    animation: fadeIn 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 6.0s;
+}
+
+.animate5{
+    animation: fadeIn 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 6.3s;
+}
+
+.animate6{
+    animation: fadeIn 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 6.6s;
+}
+
+.animate7{
+    animation: fadeIn 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 6.9s;
+}
+
+.animate8{
+    animation: fadeIn 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 7.2s;
+}
+
+    @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+    }
+
+   @keyframes fadeOut {
+    from{opacity: 1;}
+    to{opacity: 0;}
+    }
+
+    @keyframes FromLeft {
+        from{transform: translateX(-300px);}
+        to{transform: translateX(0);}
+    }
